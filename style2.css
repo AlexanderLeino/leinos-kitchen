@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    margin: 0;
+}
 .head-container {
     display: flex;
     flex-direction: row;
@@ -61,14 +65,31 @@ button {
         border: black 3px solid;
         background: #FEFECC;
     }
+    h1,h2{
+        text-align: center;
+    }
     .main-headings {
         display: flex;
         flex-direction: column;
-        position: fixed;
-        width: 1920px;
-        height: 500px;
+        position: absolute;
         border: lightgray 3px solid;
         align-items: center;
         justify-content: space-evenly;
         margin-top: 75px;
+        width: 100%;
     }
+    .main-headings-nested p {
+        display: block;
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+    .food-card p{
+        border: cyan solid 2px;
+        background: yellow;
+        display: inline-block;
+        width: 100%;
+    }
+    .food-card:nth-child(odd){
+        background: orange;
+    }
+    
