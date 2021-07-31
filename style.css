@@ -1,126 +1,73 @@
-html {
-    background: rgb(232, 231, 235);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-/*Color Palette
-Dark Blue:  #02475E
-Gray-blue:#687980
-sandy: #F3BDA1
-light yellow: 
-*/
-
-.leinos-kitchen-title{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 50px;
-    font-family: cursive;
-}
-
-
-.head-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    background: #F3BDA1;
-}
-.nameofsite > img {
-    color: white;
-    
-    height: 150px;
-    width: 200px;
+*{
+    margin: 0;
+    padding:0;
 }
 nav {
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
-    background: #FEFECC;
-    height: 30px;
+    height: 70px;
     align-content: center;
+    
 }
+.navbar-tile:hover {
+    background: rgb(255, 242, 124)
+
+}
+a {
+    color: inherit;
+}
+
+
+
+html {
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.background h1 {
+    display: inline-block;
+    position:absolute;
+    left: 300px;
+    color: rgb(220, 221, 144);
+    font-size: 300px;
+}
+img{
+    display:flex;
+    flex-direction: row;
+    height: 800px;
+    justify-content: stretch;
+    
+}
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+  
+    background-repeat: no-repeat;
+    margin-left: 175px;
+}
+
 nav div {
     width: 200px;
-    border-left: black solid 2px;
-    border-right: black solid 2px;
+    border: black 3px solid;
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
-    margin-top: 5px;
-}
-.landing-page-text-container {
-    width: 1150px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.family-pic {
-    display:flex;
-   height: 540px;
-   width: 700px;
-   padding: 0;
-   border: 0; 
-   position: absolute;
-   left: 1200px; 
-   display: inline-block;
-   padding-top: 10px;
-   border-radius: 25px;
-}
-   
-
-.landing-page-headers {
- text-align: center;
- text-decoration: underline;
- font-size: 25px;
- color: black;
-}
-
-button {
-margin-top: 60px;
-margin-right: 10px; 
-padding: 10px; 
-background: #FEFECC;
-}
-button:hover{
-    background-color:blue;
-}
-p {
-    text-align: center;
-    font-size: 25px;
     color: black;
-   
-}
-
-.our-story-nav:hover{
-background: green;
-}
-
-}
-.landing-page-paragraphs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.logo {
-    margin-top: 3px;
-    margin-left: 1px;
-}
-.our-story-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px rgb(204, 113, 113);
+    margin-top: 15px;
+    padding-top: 10px;
     
 }
-.our-mission-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px rgb(204, 113, 113);
+.main-container {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
 }
-.different {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px rgb(204, 113, 113);
+
+.main-container h1{
+    font-size: 100px;
+}
+.header-menu{
+    font-size: 70px;
 }

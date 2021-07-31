@@ -33,7 +33,10 @@ button {
         background: #FEFECC;
         height: 30px;
         align-content: center;
+        
     }
+  
+
     nav div {
         width: 200px;
         border-left: black solid 2px;
@@ -43,53 +46,72 @@ button {
         font-weight: bolder;
         margin-top: 5px;
     }
+       
     .nameofsite > img {
         color: white;
         height: 150px;
         width: 200px;
     }
-    aside {
-        position: absolute;
-        top: 250px;
-        display: flex;
-        flex-direction: column;
-        height: 500px;
-        width: 300px;
+    aside { display: flex;
+        flex-direction: row;
+        justify-content: center;
         justify-content: space-evenly;
-       
+        margin-top: 25px;
+        
     }
     aside div {
-        font-size: 20px;
-        text-align: center;
-        text-decoration: underline black 1px;
         border: black 3px solid;
-        background: #FEFECC;
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 5px;
     }
-    h1,h2{
+    aside div:hover{
+        background: rgb(255, 242, 124);
+    }
+    .apps-container {
+        display: flex;
+        border: black 3px solid;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 35px;
+    }
+    h1{
         text-align: center;
     }
-    .main-headings {
+    h2 {
+        border-left: solid 3px black;
+        padding-left: 15px;
+        margin-right: -50px;
+    }
+    .header-menu{
+        font-size: 70px;
+    }
+    .breakfast-container {
         display: flex;
-        flex-direction: column;
-        position: absolute;
-        border: lightgray 3px solid;
-        align-items: center;
+        border: black 3px solid;
+        justify-content: center;
         justify-content: space-evenly;
-        margin-top: 75px;
-        width: 100%;
+        margin-top: 35px;
     }
-    .main-headings-nested p {
-        display: block;
-        display: inline-block;
+    .entrees-container {
+        display: flex;
+        border: black 3px solid;
+        justify-content: center;
         justify-content: space-evenly;
+        margin-top: 35px;
     }
-    .food-card p{
-        border: cyan solid 2px;
-        background: yellow;
-        display: inline-block;
-        width: 100%;
+    .soup-container {
+        display: flex;
+        border: black 3px solid;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 35px;
     }
-    .food-card:nth-child(odd){
-        background: orange;
+    .breads-pastas-container {
+        display: flex;
+        border: black 3px solid;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 35px;
+        line-height: .9;
     }
-    
